@@ -104,6 +104,9 @@ Exemplo de resposta de erro:
 ## Testes
 Para executar os testes, use: `mvn test`
 
+## CI/CD
+Este projeto utiliza GitHub Actions para integração contínua. O workflow de CI é executado em pushes e pull requests para as branches `main` e `master`, realizando build e testes automáticos com Maven e JDK 21.
+
 ## Contribuição
 Sinta-se à vontade para contribuir com melhorias ou correções.
 
